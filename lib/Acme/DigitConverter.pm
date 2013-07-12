@@ -68,8 +68,8 @@ Acme::DigitConverter - Perl Port of digit_convert
         [0..9, 'a'..'z', 'A'..'Z'],
     );
 
-    print $converter->to(98798798735665662), "\n";
-    print $converter->from("7iuYfThXxc"), "\n";
+    print $converter->to(98798798735665662), "\n"; # 7iuYfThXxc
+    print $converter->from("7iuYfThXxc"), "\n";    # 98798798735665662
 
 =head1 DESCRIPTION
 
